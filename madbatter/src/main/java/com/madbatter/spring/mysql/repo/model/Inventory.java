@@ -25,25 +25,64 @@ public class Inventory implements Serializable {
 	@Column(name = "desiredText")
 	private String desiredText;
 
-
+	// id
 	public long getId() {
 		return id;
 	}
-
 
 	public void setId(long id) {
 		this.id = id;
 	}
 	
+
 	// size
+	public String getSize() {
+		return size;
+	}
+
+	public void setSize(String size) {
+		this.size = size;
+	}
 	
+
 	// cost
+	public float getCost() {
+		return cost;
+	}
+
+	public void setCost(float cost) {
+		this.cost = cost;
+	}
 	
+
 	// desired date
+	public String getDDate() {
+		return dDate;
+	}
+
+	public void setDDate(String dDate) {
+		this.dDate = dDate;
+	}
 	
+
 	// description
+	public String getDesc() {
+		return desc;
+	}
+
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
 	
+
 	// color
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
 	
 	//complete order
 	@Override
